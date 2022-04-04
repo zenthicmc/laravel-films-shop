@@ -1,5 +1,5 @@
 # Films Shop
-A Web Application Films Shop That Consume OMDb API With Tripay's Payment Gateway Integration
+A Web Application Films Shop That Consume OMDb API With Tripay Payment Gateway Integration
 
 # Tech Stack
 <ul>
