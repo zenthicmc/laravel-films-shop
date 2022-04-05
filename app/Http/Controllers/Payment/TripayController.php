@@ -103,11 +103,13 @@ class TripayController extends Controller
         $error = curl_error($curl);
         
         curl_close($curl);
-        $response = json_decode($response)->data;
-        
+        if(json_decode($response)->success == true) {
+            $response = json_decode($response)->data;
+        }
+        else {
+            abort(404);
+        }
         return $response ? $response : $error;   
     }
 
 }
-
-    
