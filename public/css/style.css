@@ -1,0 +1,39 @@
+* {
+   font-family: 'Poppins', sans-serif;
+}
+
+.box {
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   background-color: white;
+   border-radius: 10px;
+   width: auto;
+   height: auto;
+   padding: 30px 30px;
+}
+
+.t-secondary {
+   color: darkgrey;
+   letter-spacing: 2px;
+}
+
+.t-black {
+   color: black;
+}
+
+.unpaid {
+   width: 70px;
+   height: 25px;
+   color: #dc3545;
+   background-color: #F8D7DA;
+   border-radius: 10px;
+   font-size: 12px;
+}
+
+.paid {
+   width: 70px;
+   height: 25px;
+   border-radius: 10px;
+   font-size: 12px;
+   color: #198754;
+   background-color: #D1E7DD;
+}
